@@ -1,0 +1,894 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@200&family=Poppins:wght@300&display=swap");
+header {
+    float: left;
+    width: 100%;
+}
+.abc {
+    float: left;
+}
+.abc img {
+    float: left;
+    max-width: 50%;
+    padding-top: 20px;
+    -webkit-box-reflect: below 5px linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+}
+.aaka {
+    display: none;
+}
+.bcd {
+    float: left;
+    padding-top: 35px;
+    display: flex;
+    justify-content: end;
+}
+
+.bcd li {
+    list-style: none;
+    display: inline;
+    padding: 20px;
+    font-family: POPPINS;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 20px;
+}
+.bcd a {
+    color: #333;
+    text-decoration: none;
+}
+.bcd button {
+    font-family: Manrope;
+    background: lightgreen;
+    animation-name: example;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+@keyframes example {
+    from {
+        background-color: lightgreen;
+    }
+    to {
+        background-color: darkgreen;
+    }
+}
+.def {
+    float: left;
+    width: 100%;
+}
+.fgh {
+    float: left;
+    width: 100%;
+    padding: 50px;
+    margin-top: 107px;
+}
+.fgh h6 {
+    font-family: Manrope;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 56px;
+    color: #333333;
+}
+.fgh p {
+    font-family: Manrope;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 26px;
+    color: #4f4f4f;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.fgh button {
+    background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+    padding: 15px;
+    box-shadow: 0px 20px 40px 0px #808f9630;
+
+    border-radius: 2px;
+}
+.fgh i {
+    padding-left: 80px;
+   
+}
+.hij {
+    float: left;
+    text-align: center;
+}
+
+@keyframes fgh {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 150px;
+        top: 0px;
+    }
+    50% {
+        left: 150px;
+        top: 150px;
+    }
+    75% {
+        left: 0px;
+        top: 150px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+.hij img {
+    max-width: 40%;
+    position: relative;
+    animation-name: fgh;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.klm {
+    float: left;
+    width: 100%;
+}
+.mno {
+    float: left;
+    margin-top: 107px;
+}
+.poi {
+    background: linear-gradient(164.26deg, rgba(239, 128, 49, 0) -335.51%, rgba(239, 128, 49, 0.15) -20.24%, rgba(239, 128, 49, 0) 119.45%);
+}
+.mno h6 {
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    padding-top: 20px;
+    color: #f3b562;
+}
+.mno h5 {
+    font-family: Manrope;
+
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    color: #647b64;
+    padding-bottom: 10px;
+}
+.mno p {
+    font-family: Manrope;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    color: #4f4f4f;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+
+.mno button {
+    background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+    padding: 15px;
+    box-shadow: 0px 20px 40px 0px #808f9630;
+
+    border-radius: 2px;
+ 
+}
+@keyframes egf {
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 210px;
+        top: 0px;
+    }
+    50% {
+        left: 0px;
+        top: 0px;
+    }
+    75% {
+        left: 0px;
+        top: 0px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+.mno i {
+    padding-left: 80px;
+}
+.pqr {
+    float: left;
+    padding-top: 127px;
+    padding-left: 80px;
+    margin-top: 60px;
+}
+
+.zxc {
+    float: left;
+}
+.uio {
+    float: left;
+}
+.card.aaka {
+    padding-bottom: 15px;
+    border: none;
+}
+.card .sawh h5 {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #333333;
+}
+.card .sawh p {
+    font-family: Manrope;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 17px;
+    letter-spacing: 0.04em;
+
+    color: #4f4f4f;
+}
+.card .sawh i {
+    color: #647b64;
+    font-size: 30px;
+    padding: 5px;
+    border-radius: 5px;
+    animation-name: egf;
+    animation-duration: 4s;
+    position: relative;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+.card .sawh:hover i {
+    background: green;
+    color: white;
+}
+.uio .aaka:hover {
+    background: #ffffff;
+
+    box-shadow: 0px 5.874383926391602px 31.330047607421875px 0px #9b94942b;
+    transition: 0.3s ease;
+}
+.zxc .aaka:hover {
+    background: #ffffff;
+
+    box-shadow: 0px 5.874383926391602px 31.330047607421875px 0px #9b94942b;
+    transition: 0.3s ease;
+}
+.quvi {
+    float: left;
+    width: 100%;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+.sum h6 {
+    text-align: center;
+    font-family: Manrope;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+    color: #f3b562;
+}
+.sum h5 {
+    font-family: Manrope;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    text-align: center;
+    color: #647b64;
+}
+.aloo {
+    float: left;
+}
+.tops {
+    float: left;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 5rem;
+}
+.tops .aloo h5 {
+    font-family: poppins;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0em;
+    color: #333333;
+    padding-top: 15px;
+    padding-bottom: 5px;
+}
+.tops .aloo p {
+    font-family: Manrope;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+
+    color: #4f4f4f;
+}
+.tops .aloo i {
+    color: #647b64;
+
+    font-size: 20px;
+    padding: 5px;
+}
+.tops .gobi {
+    padding: 5rem 3rem 5rem 3rem;
+    background-image: linear-gradient(to bottom, rgba(255, 0, 0, 0), rgba(169, 169, 169, 0.1));
+    border-radius: 5px;
+}
+.tops .gobi:hover {
+    background: #647b64;
+
+    transition: 0.2s ease;
+}
+.tops .gobi:hover i {
+    background: #ffffff;
+    border-radius: 3px;
+}
+.tops .gobi:hover h5 {
+    color: white;
+}
+.tops .gobi:hover p {
+    color: white;
+}
+.mom {
+    float: left;
+    width: 100%;
+    margin-top: 60px;
+}
+.pop {
+    float: left;
+    width: 100%;
+}
+.pop img {
+    max-width: 70%;
+}
+.mouse {
+    float: left;
+    position: relative;
+}
+.sup {
+    float: left;
+    padding-top: 100px;
+    margin-top: 50px;
+}
+.mom .sup h5 {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+
+    color: #f3b562;
+}
+.mom .sup h6 {
+    font-family: poppins;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+    padding-bottom: 15px;
+    padding-top: 6px;
+
+    color: #647b64;
+}
+.mom .sup p {
+    font-family: Manrope;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0.04em;
+    text-align: left;
+    color: #4f4f4f;
+    padding-bottom: 20px;
+}
+.mom button {
+    background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+    padding: 15px;
+    box-shadow: 0px 20px 40px 0px #808f9630;
+
+    border-radius: 2px;
+}
+.mom i {
+    padding-left: 80px;
+}
+.mouse::after {
+    content: " ";
+    background-image: url(../images/pic7.png);
+    background-size: cover;
+    position: absolute;
+    float: left;
+    top: -28px;
+    right: 25%;
+    z-index: -1;
+    height: 213px;
+    width: 214px;
+    border-radius: 0px;
+}
+.dad {
+    float: left;
+    width: 100%;
+    margin-top: 10%;
+}
+.dad .kop {
+    float: left;
+    width: 100%;
+}
+.dad .kop h6 {
+    font-family: poppins;
+    font-size: 24px;
+    font-weight: 500;
+    line-height: 33px;
+    letter-spacing: 0em;
+
+    color: #f3b562;
+}
+.dad .kop h5 {
+    font-family: Manrope;
+    font-size: 41px;
+    font-weight: 500;
+    line-height: 45px;
+    letter-spacing: 0em;
+
+    color: #647b64;
+}
+.pig {
+    float: left;
+    width: 100%;
+    text-align: center;
+}
+.pig .lok img {
+    max-width: 60%;
+    height: 500px;
+}
+.bug {
+    float: left;
+}
+.tug {
+    float: left;
+}
+.bug .tug {
+    background-image: none;
+}
+.thug {
+    float: left;
+}
+.luk {
+    float: left;
+}
+.thug .luk {
+    background-image: none;
+}
+.tug i {
+    padding: 20px;
+    background: linear-gradient(102.3deg, #647b64 -4.62%, #6add6a 178.22%);
+
+    border-radius: 50px;
+    border: double;
+    font-size: 40px;
+}
+.luk i {
+    padding: 20px;
+    background: linear-gradient(102.3deg, #647b64 -4.62%, #6add6a 178.22%);
+
+    border-radius: 50px;
+    border: double;
+    font-size: 40px;
+}
+.opq {
+    float: left;
+    width: 100%;
+    margin-top: 70px;
+}
+.nose {
+    float: left;
+    width: 100%;
+    background-color: white;
+    border-radius: 18px;
+}
+.nose h5 {
+    font-size: 30px;
+    font-weight: 600;
+    line-height: 62px;
+    letter-spacing: 0px;
+
+    margin-bottom: 50px;
+    box-shadow: 0px 12px 24px 0px rgba(20, 20, 43, 0.1);
+    padding: 15px;
+    border-radius: 16px;
+}
+.chat strong {
+    font-size: 22px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: rgba(0, 0, 0, 1);
+}
+.chit {
+    border-radius: 16px !important;
+    margin-bottom: 20px;
+    border: none !important;
+    box-shadow: 0px 5px 16px 0px rgba(8, 15, 52, 0.1);
+    background: rgba(255, 255, 255, 1);
+    padding: 15px;
+}
+.chit p {
+    font-family: poppins;
+    font-size: 21px;
+    font-weight: 400;
+    line-height: 30px;
+    color: rgba(152, 152, 152, 1);
+}
+footer {
+    float: left;
+    width: 100%;
+    height: 500px;
+
+    margin-top: 100px;
+    background-color: rgba(240, 220, 197, 1);
+}
+.apple {
+    float: left;
+    width: 100%;
+    margin-top: 100px;
+}
+
+footer img {
+    float: left;
+    max-width: 85%;
+    padding-bottom: 20px;
+}
+footer p {
+    font-family: manrope;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: 0.04em;
+    color: rgba(79, 79, 79, 1);
+    padding-bottom: 10px;
+}
+
+.tate {
+    float: left;
+}
+.cat {
+    float: left;
+}
+.cat h5 {
+    font-family: manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(100, 123, 100, 1);
+}
+.cat ul {
+    float: left;
+    list-style: none;
+    padding-top: 18px;
+}
+.cat li a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(51, 51, 51, 1);
+}
+.cat li {
+    padding-top: 18px;
+}
+.bat {
+    float: left;
+}
+.bat ul {
+    float: left;
+    list-style: none;
+    padding-top: 18px;
+}
+.bat li a {
+    text-decoration: none;
+    font-family: poppins;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    color: rgba(51, 51, 51, 1);
+}
+.bat li {
+    padding-top: 18px;
+}
+.bat h5 {
+    font-family: manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(100, 123, 100, 1);
+}
+.tate i {
+    height: 32px;
+    width: 32px;
+    left: 140px;
+    top: 5001px;
+    border-radius: 20px;
+    background-color: rgba(100, 123, 100, 0.1);
+    padding: 8px;
+
+    color: rgba(100, 123, 100, 1);
+}
+.kit {
+    float: left;
+}
+.kit h6 {
+    font-family: manrope;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 30px;
+    letter-spacing: 0em;
+    color: rgba(100, 123, 100, 1);
+    padding-top: 14px;
+}
+.kit button {
+    background: linear-gradient(102.3deg, #647b64 -4.62%, #66ac66 178.22%);
+    padding: 10px;
+    box-shadow: 0px 20px 40px 0px #808f9630;
+
+    border-radius: 2px;
+    margin-top: 20px;
+}
+.kit button i {
+    padding-left: 68px;
+}
+.kit textarea {
+    border: none;
+    height: 100px;
+    padding: 15px;
+    width: 250px;
+    outline: none;
+}
+.six {
+    font-family: poppins;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 16px;
+    letter-spacing: 0.155em;
+    color: rgba(254, 254, 254, 1);
+}
+.accordion-button.try:not(.collapsed) {
+    background: transparent;
+    color: #000;
+    box-shadow: none;
+}
+button.accordion-button.try {
+    box-shadow: none;
+}
+.loll {
+    float: left;
+    width: 100%;
+}
+.icons {
+    float: left;
+}
+
+@media only screen and (max-width: 767px) {
+    .bcd {
+        display: none;
+    }
+    .icons {
+        padding-left: 10px;
+    }
+    .fgh h6 {
+        font-size: 26px;
+    }
+    .fgh p {
+        font-size: 14px;
+    }
+    .fgh {
+        margin-top: 0;
+    }
+    .ola {
+        float: left;
+        background-color: rgba(100, 123, 100, 1);
+    }
+    .aaka {
+        float: left;
+        padding-top: 29px;
+        display: block;
+        width: 9%;
+        padding-left: 14px;
+    }
+
+    .abc {
+        width: 88%;
+    }
+    .abc img {
+        max-width: 70%;
+    }
+
+    .ppl a {
+        text-decoration: none;
+        color: black;
+    }
+
+    .pqr {
+        padding-top: 0px;
+        padding-left: 50px;
+    }
+    .quvi {
+        padding-top: 10px;
+    }
+    .tops .gobi {
+        padding: 10px;
+    }
+    .pig .lok img {
+        max-width: 84%;
+        height: 300px;
+    }
+    .tug i {
+        padding: 0px;
+    }
+    .luk i {
+        padding: 0px;
+    }
+    .thug {
+        padding-right: 46px !important;
+    }
+    .bug {
+        padding-left: 31px !important;
+    }
+    .nose h5 {
+        font-size: 25px;
+    }
+    .chat strong {
+        font-size: 15px;
+    }
+    .chat p {
+        font-size: 10px;
+    }
+    .dad .kop h5 {
+        padding-bottom: 25px;
+        font-size: 29px;
+    }
+    .dad .kop h6 {
+        padding-top: 20px;
+    }
+    .mouse {
+        padding-left: 69px;
+    }
+    .mouse::after {
+        right: 15%;
+    }
+
+    footer {
+        height: 1000px;
+    }
+    .kit {
+        padding-left: 30px;
+    }
+    footer p {
+        padding-left: 13px;
+    }
+    .cat ul {
+        padding-left: 45px;
+    }
+    .mom .sup p {
+        font-size: 14px;
+        padding-left: 10px;
+    }
+    .hij img {
+        display: none;
+    }
+    .mom .sup h6 {
+        padding-left: 12px;
+    }
+    .mom .sup h5 {
+        padding-left: 16px;
+    }
+    .mom button {
+        margin-left: 11px;
+    }
+}
+@media only screen and (min-width: 767px) and (max-width: 999px) {
+    .hij img {
+        max-width: 100%;
+    }
+    .fgh h6 {
+        font-family: poppins;
+        font-size: 26px;
+        line-height: 30px;
+    }
+
+    .fgh p {
+        font-size: 13px;
+        line-height: 22px;
+        font-family: poppins;
+    }
+    .fgh i {
+        padding-left: 29px;
+    }
+    .mno {
+        width: 100% !important;
+    }
+    .mno p {
+        font-size: 15px;
+    }
+    .pqr {
+        width: 100% !important;
+    }
+    .abc {
+        width: 30% !important;
+    }
+    .bcd {
+        width: 70% !important;
+    }
+    .bcd li {
+        padding: 0;
+        margin-left: 14px;
+    }
+    .abc img {
+        max-width: 100%;
+        padding-top: 27px;
+    }
+    .sup {
+        padding: 0;
+        margin-top: 0;
+    }
+    .pop img {
+        max-width: 75%;
+    }
+    .mouse::after {
+        right: 16%;
+    }
+    .mom .sup h6 {
+        font-size: 34px;
+    }
+    .mom .sup p {
+        font-size: 13px;
+    }
+    .dad .kop h5 {
+        padding-bottom: 40px;
+    }
+    .bug {
+        padding-right: 102px !important;
+    }
+    .kit textarea {
+        width: 171px;
+    }
+    .kit button {
+        padding: 13px 5px;
+    }
+    .kit button i {
+        padding-left: 0;
+    }
+    footer p {
+        font-size: 12px;
+    }
+    .cat ul {
+        padding-top: 1px;
+    }
+    .bat ul {
+        padding-top: 1px;
+    }
+    .kit h6 {
+        padding-top: 1px;
+    }
+    .cat li {
+        padding-top: 16px;
+    }
+    .bat li {
+        padding-top: 16px;
+    }
+    footer {
+        margin-top: 50px;
+        height: 450px;
+    }
+}
